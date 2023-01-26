@@ -18,6 +18,7 @@ Use len() to find the total words.
 ### Step 6: 
 Run the program to determine the number of words in the file created.
 ## PROGRAM:
+```
 '''
 #Program for getting the word count from the contents of a file using command line arguments.
 #Developed by: hanumanth
@@ -30,6 +31,7 @@ with open(sys.argv[1],'r') as f1:
         word= line.split()
         count += len(word)
 print("word count in file = ",count)
+```
 ### OUTPUT:
 ![214308358-eb6beaca-1916-462c-b752-60668d1051a4](https://user-images.githubusercontent.com/121033192/214796978-05e1cd76-1942-4037-943d-8e22f7f1dcba.png)
 
